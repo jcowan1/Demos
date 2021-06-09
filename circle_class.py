@@ -14,4 +14,4 @@ class Circle():
 r = int(input("Please enter the radius of the circle: "))
 obj = Circle(r)
 print("The area of the circle is: ", round(obj.area(), 2))
-print("The perimeter of the circle is: ", round(obj.perimeter(), 21))
+print("The perimeter of the circle is: ", round(obj.perimeter(), 2))
